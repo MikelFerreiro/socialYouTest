@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>programming courses</title>
+    <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <section class="body">
+		<form onsubmit="return false" id="form">
+			<input type="text" name="name" id="name" placeholder="First name" required>
+			<input type="text" name="lastName" id="lastName" placeholder="Last name" required>
+			<label for="languages">Choose language:</label>
+				<select name="language" id="language">
+					  <option value="JavaScript">JavaScript</option>
+					  <option value="PHP">PHP</option>
+					  <option value="JAVA">JAVA</option>
+					  <option value="C++">C++</option>
+				</select>
+
+			<button type="submit" name="send" id="send">send</button>
+		</form>
+		<article id="grid">
+			<div>First name</div>
+			<div>Last name</div>
+			<div>Course</div>
+		</article>
+    </section>
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
